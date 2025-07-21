@@ -1,0 +1,20 @@
+ //Write a program to implement the Scope and Shadowing
+//scope Method
+fn main(){
+  let mut globalValue = 100;
+  {
+    println!("{}",globalValue);
+    let localValue = 200;
+  }
+}
+
+//Shadowing Method
+fn main() {
+  let global = 100;
+  {
+    let local = 200;
+    let global = 300;
+    println!("{}\n{}",local,global);
+  }
+  println!("{}",global);
+}
