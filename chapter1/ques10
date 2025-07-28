@@ -1,0 +1,8 @@
+//10. Declaring String Object and converting String Literal to String Object
+fn main(){
+    let s1 = String::from("Hello");
+    let s2 = "World".to_string();
+
+    println!("s1: {}",s1);
+    println!("s2: {}",s2);
+}
