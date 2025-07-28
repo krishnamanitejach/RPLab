@@ -1,0 +1,14 @@
+//7.Write a program to Count Iteration of a Loop until a Condition
+fn main(){
+    let mut count = 0;
+
+    loop{
+        count += 1;
+        if count == 5 {
+            break;
+        }
+        println!("Iteration: {}", count);
+      }
+
+    println!("Loop stopped after {} iteration.",count);
+}
