@@ -1,0 +1,6 @@
+//5.Write a program to print first 10 natural numbers using loop
+fn main(){
+    for i in 1..=10 {
+        println!("{}",i);
+    }
+}
