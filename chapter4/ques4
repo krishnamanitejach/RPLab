@@ -5,4 +5,6 @@ fn calculate_area_perimeter(x: u32,y: u32) -> (u32,u32) {
     (area,perimeter)
 }
 fn main(){
-    let (area,perimter)
+    let (area,perimeter) = calculate_area_perimeter(5,3);
+    println!("Area: {},Perimeter: {}",area,perimeter);
+}
